@@ -1,3 +1,7 @@
+<?php
+header("Content-type: text/css; charset: UTF-8");
+?>
+
 body, html {
   height:100%;
   margin: 0;
@@ -45,4 +49,6 @@ body#bg {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
+  height: 100%;
+  background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
 }
