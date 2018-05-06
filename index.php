@@ -14,8 +14,8 @@
     body{
       background: url(files/bg/<?php echo $bg; ?>) no-repeat;
     }
-
     </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
 
