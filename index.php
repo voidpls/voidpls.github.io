@@ -21,7 +21,6 @@
 
   $data[$ip] = $jsonobj;
   $result = json_encode($data, 128);
-  chmod('files/ip.json', 0777);
   file_put_contents('files/ip.json', $result);
   unset($result);
 ?>
