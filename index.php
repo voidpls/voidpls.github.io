@@ -66,7 +66,7 @@
     <div class="footer">
       <p id="foot"> Playing "Moving" by H E R B </p>
       <a href="http://soundcloud.com/herbbeatz/moving" target="_blank">
-        <img id="SC" src="files/icons/sclogo.png">
+        <img id="SC" src="files/icons/sclogo.png" align="middle">
       </a>
     </div>
 
