@@ -64,8 +64,12 @@
     </div>
 
     <div class="footer">
-      <p>Playing "Moving" by H E R B</p>
+      <p id="foot"> Playing "Moving" by H E R B </p>
+      <a href="http://soundcloud.com/herbbeatz/moving" target="_blank">
+        <img id="SC" src="files/icons/sclogo.png">
+      </a>
     </div>
+
   </body>
 
 </html>

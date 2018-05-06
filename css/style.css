@@ -29,6 +29,7 @@ div#box {
   display: block;
 }
 
+
 h1 {
   font-size: 7vw;
   display:inline-block;
@@ -38,12 +39,30 @@ h1 {
 }
 
 .footer {
-  font-size: 1.25vw;
+  font-size: 1.22vw;
   position: fixed;
   bottom: 0;
   width: 100%
+  display: block;
+  margin: auto;
   text-align: center;
 }
+
+img#SC {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 3.75vw;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+p#foot {
+  margin-bottom: 0;
+}
+
 /*
 h2 {
   font-size: 2vw;
