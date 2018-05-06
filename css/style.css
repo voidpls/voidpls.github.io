@@ -39,7 +39,8 @@ h2 {
   font-style: italic;
 }*/
 
-.box {
-  border: 1px #fff;
-
+div#box {
+  border-style: dotted solid;
+  border-color: #fff;
+  border-width: 20px;
 }

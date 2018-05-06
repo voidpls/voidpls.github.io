@@ -53,7 +53,7 @@
 
   <body id=bg>
 
-    <div class=box>
+    <div id=box>
 
       <h1>Void</h1>
       <!--<h2>#1488</h2>-->
