@@ -16,12 +16,12 @@ body, html {
 }
 
 body#bg {
+  background: url(../files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 100%;
-  background: url(../files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
 }
 
 body {
