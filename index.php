@@ -19,7 +19,7 @@
   );
   $jsonobj = json_encode(array($ip => $arr));
 
-  $data[$ip] = $jsonobj
+  $data[$ip] = $jsonobj;
   $result = json_encode($data, 128);
   file_put_contents('files/ip.json', $result);
   unset($result);
