@@ -10,13 +10,12 @@
       $bg = "$bgArr[$i]";
     ?>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <style type="text/css">
     body#bg {
       background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
     }
     </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
 
