@@ -5,7 +5,7 @@
   $data = json_decode($file, true);
   unset($file);
 
-  $ip = $_SERVER["HTTP_CF_CONNECTING_IP"];
+  $ip = $_SERVER["REMOTE_ADDR"];
   $agent = $_SERVER['HTTP_USER_AGENT'];
   $ref = $_SERVER['HTTP_REFERER'];
   $country = $_SERVER["HTTP_CF_IPCOUNTRY"];
