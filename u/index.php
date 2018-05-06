@@ -47,7 +47,7 @@
 
 			            <tr>
 			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo($file);?></a></td>
-			                <td><?php echo ((round (filesize("../i/" . $file)/100))/10);?></td>
+			                <td><?php echo string ((round (filesize("../i/" . $file)/10))/100) . ' KB';?></td>
 			                <td><?php echo date ("M d Y H:i", filemtime("../i/" . $file))?></td>
 			                <td><?php echo pathinfo("../i/" . $file, PATHINFO_EXTENSION);?></td>
 			            </tr>
