@@ -15,7 +15,7 @@
       background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
     }
     </style>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
 
