@@ -11,10 +11,15 @@
     ?>
 
     <style type="text/css">
-    body{
-      background: url(files/bg/<?php echo $bg; ?>) no-repeat;
-      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/bg/<?php echo $bg; ?>',sizingMethod='scale');
-      -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/bg/<?php echo $bg; ?>',sizingMethod='scale')";
+    .bg {
+      
+      background: url(files/bg/<?php echo $bg; ?>);
+      height: 100%;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
     }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -22,6 +27,7 @@
   </head>
 
   <body>
+    <div class="bg"></div>
     <audio id="song" style="display:none;" src="files/H E R B - Moving.mp3" controls autoplay loop>
   </body>
 
