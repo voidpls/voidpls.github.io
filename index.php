@@ -12,12 +12,13 @@
   $dateTime = date('Y/m/d G:i:s');
   $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
-  $jsonobj = {
-    "hostname":$hostname,
-    "user agent":$agent,
-    "ref":$ref,
-    "time":$dateTime
-  }
+  $arr = array("hostname"=>$hostname,
+    "user agent"=>$agent,
+    "ref"=>$ref,
+    "time"=>$dateTime
+  );
+  $jsonobj = json_encode(array($ip => $arr));
+
   $data[$ip] = $jsonobj
   $result = json_encode($data, 128);
   file_put_contents('files/ip.json', $result);
