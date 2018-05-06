@@ -3,14 +3,7 @@
 <html>
 
   <head>
-
-    <?php
-      $bgArr = array_slice(scandir("files/bg/"), 2);
-      $i = rand(0, count($bgArr)-1);
-      $bg = "$bgArr[$i]";
-    ?>
-
-
+    
     <link rel="stylesheet" type="text/css" href="css/style.php">
 
   </head>

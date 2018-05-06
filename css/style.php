@@ -1,10 +1,17 @@
 <?php
+
 header("Content-type: text/css; charset: UTF-8");
+
+$bgArr = array_slice(scandir("../files/bg/"), 2);
+$i = rand(0, count($bgArr)-1);
+$bg = "$bgArr[$i]";
+
 ?>
 
 body, html {
   height:100%;
   margin: 0;
+  background-color: #000;
   font-size: 3vw;
 }
 
