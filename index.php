@@ -22,7 +22,10 @@
     }
     </style>
     <script>
-      window.alert(<?php echo $bgArr?>)
+      window.alert(<?php
+      $js_array = json_encode($bgArr);
+      echo $js_array;
+      ?>)
     </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 
