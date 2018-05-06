@@ -53,8 +53,12 @@
 
   <body id=bg>
 
-    <h1>Void</h1>
-    <h2>#1488</h2>
+    <div class=box>
+
+      <h1>Void</h1>
+      <!--<h2>#1488</h2>-->
+
+    </div>
 
     <audio id="song" style="display:none;" src="files/H E R B - Moving.mp3" autoplay loop>
 
