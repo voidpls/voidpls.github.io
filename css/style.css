@@ -37,6 +37,13 @@ h1 {
   text-align: center;
 }
 
+.footer {
+  font-size: 1.25vw;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+  text-align: center;
+}
 /*
 h2 {
   font-size: 2vw;
