@@ -5,15 +5,12 @@
   <head>
     <?php
 
-//    header("Content-type: text/css; charset: UTF-8");
-//    header("Vary: Accept-Encoding")
-
     $bgArr = array_slice(scandir("files/bg/"), 2);
     $i = rand(0, count($bgArr)-1);
     $bg = "$bgArr[$i]";
 
     ?>
-    <link rel="stylesheet" type="text/css" href="css/style.php">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preload" href="css/font.css" as="style">
     <style>
 
