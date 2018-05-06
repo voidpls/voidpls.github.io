@@ -5,17 +5,19 @@
   $data = json_decode($file, true);
   unset($file);
 
-  $protocol = $_SERVER['SERVER_PROTOCOL'];
-  $ip = $_SERVER['REMOTE_ADDR'];
+  $ip = $_SERVER["HTTP_CF_CONNECTING_IP"];
   $agent = $_SERVER['HTTP_USER_AGENT'];
   $ref = $_SERVER['HTTP_REFERER'];
+  $country = $_SERVER["HTTP_CF_IPCOUNTRY"]
+
   $dateTime = date('Y/m/d G:i:s');
   $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
   $arr = array("hostname"=>$hostname,
     "user agent"=>$agent,
     "ref"=>$ref,
-    "time"=>$dateTime
+    "time"=>$dateTime,
+    "country"=>$country
   );
   $jsonobj = json_encode(array($ip => $arr));
 
