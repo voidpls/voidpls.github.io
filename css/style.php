@@ -13,6 +13,8 @@ body, html {
   margin: 0;
   background-color: #000;
   font-size: 3vw;
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
 }
 
 body#bg {
@@ -44,20 +46,11 @@ h1 {
   display:inline-block;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: Helvetica;
   text-align: center;
-  color: #fff;
 }
 h2 {
   font-size: 2.5vw;
   display:inline-block;
   margin-top: 0;
-  font-family: Helvetica;
   text-align: center;
-  color: #fff;
-}
-
-p {
-  font-size: inherit;
-  display:inline-block;
 }
