@@ -45,7 +45,7 @@
 			        		if(!in_array($file, $ignore)){?>
 			            <tr>
 			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo($file);?></a></td>
-			                <td><?php echo filesize($file);?></td>
+			                <td><?php echo __DIR__;?></td>
 			                <td><?php echo date ("d M Y H:i", filemtime($file))?></td>
 			                <td><?php echo pathinfo($file, PATHINFO_EXTENSION);?></td>
 			            </tr>
