@@ -19,15 +19,6 @@ body, html {
   color: #fff;
 }
 
-body#bg {
-  background: url(../files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  height: 100%;
-}
-
 body {
   display: inline-block;
   display: -webkit-box;
