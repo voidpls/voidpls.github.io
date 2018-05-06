@@ -23,9 +23,9 @@ body {
 }
 
 div#box {
-  border-style: dotted solid;
+  border-style: solid;
   border-color: #fff;
-  border-width: 3vw;
+  border-width: 1vw;
   display: block;
 }
 
