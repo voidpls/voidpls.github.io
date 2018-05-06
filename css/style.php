@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-  font-size: 6.5vw;
+  font-size: 7vw;
   display:inline-block;
   margin-bottom: 0;
   margin-top: 0;
