@@ -42,9 +42,9 @@
 
 			        <tbody>
 			        	<?php foreach($files1 as $file)
-								
-									$file = "../i/" . $file
-									
+
+									$file = "../i/" . $file;
+
 			        		if(!in_array($file, $ignore)){?>
 
 			            <tr>
