@@ -22,10 +22,10 @@ body {
   flex-direction: column;
 }
 
-#box {
+div#box {
   border-style: dotted solid;
   border-color: #fff;
-  border-width: 20px;
+  border-width: 3vw;
   display: block;
 }
 
