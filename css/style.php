@@ -13,7 +13,7 @@ body, html {
   margin: 0;
   background-color: #000;
   font-size: 3vw;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
   color: #fff;
 }
 
