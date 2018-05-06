@@ -14,7 +14,7 @@
     <style type="text/css">
     body#bg {
 
-      background: url("files/bg/<?php echo $bg; ?>") no-repeat 50% 50% fixed;
+      background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
       background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
