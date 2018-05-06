@@ -41,7 +41,7 @@
 			        </thead>
 
 			        <tbody>
-			        	<?php foreach($files1 as $file)
+			        	<?php foreach($files1 as $file){
 
 			        		if(!in_array($file, $ignore)){?>
 
