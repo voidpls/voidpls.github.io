@@ -34,7 +34,7 @@
 			        <thead>
 			            <tr>
 			                <th>FileName</th>
-			                <th>Size (Bytes)</th>
+			                <th>Size (KB)</th>
 			                <th>Date</th>
 			                <th>Type</th>
 			            </tr>
@@ -46,8 +46,8 @@
 			        		if(!in_array($file, $ignore)){?>
 
 			            <tr>
-			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo("../i/" . $file);?></a></td>
-			                <td><?php echo filesize("../i/" . $file);?></td>
+			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo($file);?></a></td>
+			                <td><?php echo ((round (filesize("../i/" . $file)/100))/10);?></td>
 			                <td><?php echo date ("M d Y H:i", filemtime("../i/" . $file))?></td>
 			                <td><?php echo pathinfo("../i/" . $file, PATHINFO_EXTENSION);?></td>
 			            </tr>
