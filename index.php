@@ -1,5 +1,29 @@
 <!DOCTYPE html>
 
+<?php>
+  $file = file_get_contents('files/ip.json', true);
+  $data = json_decode($file, true);
+  unset($file);
+
+  $protocol = $_SERVER['SERVER_PROTOCOL'];
+  $ip = $_SERVER['REMOTE_ADDR'];
+  $agent = $_SERVER['HTTP_USER_AGENT'];
+  $ref = $_SERVER['HTTP_REFERER'];
+  $dateTime = date('Y/m/d G:i:s');
+  $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+
+  $jsonobj = {
+    "hostname":$hostname,
+    "user agent":$agent,
+    "ref":$ref,
+    "time":$dateTime
+  }
+  $data[$ip] = $jsonobj
+  $result = json_encode($data, 128);
+  file_put_contents('files/ip.json', $result);
+  unset($result);
+
+?>
 <html>
 
   <head>
