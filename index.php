@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php>
+<?php
   $file = file_get_contents('files/ip.json', true);
   $data = json_decode($file, true);
   unset($file);
@@ -22,8 +22,8 @@
   $result = json_encode($data, 128);
   file_put_contents('files/ip.json', $result);
   unset($result);
-
 ?>
+
 <html>
 
   <head>
