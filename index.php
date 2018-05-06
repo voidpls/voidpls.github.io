@@ -5,8 +5,7 @@
   <head>
 
     <?php
-      $bgArr = scandir("files/bg/");
-
+      $bgArr = array_slice(scandir("files/bg/"), 2);
       $i = rand(0, count($bgArr)-1);
       $bg = "$bgArr[$i]";
     ?>
@@ -21,12 +20,6 @@
       -webkit-background-size: cover;
     }
     </style>
-    <script>
-      window.alert(<?php
-      $js_array = json_encode($bgArr);
-      echo $js_array;
-      ?>)
-    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
