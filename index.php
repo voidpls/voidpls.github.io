@@ -12,12 +12,7 @@
 
     <style type="text/css">
     body#bg {
-
       background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
-      background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      -webkit-background-size: cover;
     }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,7 +20,7 @@
   </head>
 
   <body id=bg>
-    <audio id="song" style="display:none;" src="files/H E R B - Moving.mp3" controls autoplay loop>
+    <audio id="song" style="display:none;" src="files/H E R B - Moving.mp3" autoplay loop>
   </body>
 
 </html>
