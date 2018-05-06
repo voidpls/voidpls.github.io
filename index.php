@@ -13,22 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style type="text/css">
-    .bg {
+    body#bg {
 
-      background-image: url("files/bg/<?php echo $bg; ?>");
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: url("files/bg/<?php echo $bg; ?>") no-repeat 50% 50% fixed;
       background-size: cover;
-
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
     }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
 
-  <body>
-    <div class="bg"></div>
+  <body id=bg>
     <audio id="song" style="display:none;" src="files/H E R B - Moving.mp3" controls autoplay loop>
   </body>
 
