@@ -8,8 +8,7 @@
   $ip = $_SERVER["HTTP_CF_CONNECTING_IP"];
   $agent = $_SERVER['HTTP_USER_AGENT'];
   $ref = $_SERVER['HTTP_REFERER'];
-  $country = $_SERVER["HTTP_CF_IPCOUNTRY"]
-
+  $country = $_SERVER["HTTP_CF_IPCOUNTRY"];
   $dateTime = date('Y/m/d G:i:s');
   $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
