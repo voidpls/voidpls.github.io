@@ -5,11 +5,16 @@ header("Content-type: text/css; charset: UTF-8");
 body, html {
   height:100%;
   margin: 0;
-  background-color: #000;
   font-size: 3vw;
-  font-family: Helvetica;
-  text-align: center;
-  color: #fff;
+}
+
+body#bg {
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+  background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
 }
 
 body {
@@ -32,23 +37,20 @@ h1 {
   display:inline-block;
   margin-bottom: 0;
   margin-top: 0;
+  font-family: Helvetica;
+  text-align: center;
+  color: #fff;
 }
 h2 {
   font-size: 2.5vw;
   display:inline-block;
   margin-top: 0;
+  font-family: Helvetica;
+  text-align: center;
+  color: #fff;
 }
 
 p {
   font-size: inherit;
   display:inline-block;
-}
-
-body#bg {
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  height: 100%;
-  background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
 }
