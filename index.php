@@ -5,7 +5,7 @@
   <head>
 
     <link rel="stylesheet" type="text/css" href="css/style.php">
-    <link rel="stylesheet" type="text/css" href="css/font.css" media="none" onload="if(media!='all')media='all'">
+    <link rel="preload" href="css/font.css" as="style">
 
   </head>
 
