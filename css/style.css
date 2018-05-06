@@ -43,7 +43,8 @@ h1 {
   position: absolute;
   bottom: 0;
   width: 100%
-  display: block;
+  display: flex;
+  align-items: center;
   margin: auto;
   text-align: center;
 }
