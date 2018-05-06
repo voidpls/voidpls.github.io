@@ -43,15 +43,13 @@
 			        <tbody>
 			        	<?php foreach($files1 as $file)
 
-									$file = "../i/" . $file;
-
 			        		if(!in_array($file, $ignore)){?>
 
 			            <tr>
-			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo($file);?></a></td>
-			                <td><?php echo filesize($file);?></td>
-			                <td><?php echo date ("M d Y H:i", filemtime($file))?></td>
-			                <td><?php echo pathinfo($file, PATHINFO_EXTENSION);?></td>
+			                <td><a target="_blank" href="<?php echo $config['output_url'];?><?php echo($file);?>"><?php echo("../i/" . $file);?></a></td>
+			                <td><?php echo filesize("../i/" . $file);?></td>
+			                <td><?php echo date ("M d Y H:i", filemtime("../i/" . $file))?></td>
+			                <td><?php echo pathinfo("../i/" . $file, PATHINFO_EXTENSION);?></td>
 			            </tr>
 			            <?php } }?>
 			        </tbody>
