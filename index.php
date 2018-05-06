@@ -21,7 +21,9 @@
       -webkit-background-size: cover;
     }
     </style>
-
+    <script>
+      window.alert(<?php echo $bgArr?>)
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
