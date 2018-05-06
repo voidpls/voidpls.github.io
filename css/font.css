@@ -4,3 +4,24 @@
   font-weight: normal;
   src: url("../files/fonts/Quicksand.otf");
 }
+
+@font-face {
+  font-family: Quicksand;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../files/fonts/Quicksand-Italic.otf");
+}
+
+@font-face {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../files/fonts/Quicksand-Bold.otf");
+}
+
+@font-face {
+  font-family: Quicksand;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../files/fonts/Quicksand-BoldItalic.otf");
+}
