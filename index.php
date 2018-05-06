@@ -13,6 +13,8 @@
     <style type="text/css">
     body{
       background: url(files/bg/<?php echo $bg; ?>) no-repeat;
+      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/bg/<?php echo $bg; ?>',sizingMethod='scale');
+      -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/bg/<?php echo $bg; ?>',sizingMethod='scale')";
     }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
