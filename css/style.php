@@ -1,6 +1,8 @@
 <?php
 
 header("Content-type: text/css; charset: UTF-8");
+header("Vary: Accept-Encoding");
+
 
 $bgArr = array_slice(scandir("../files/bg/"), 2);
 $i = rand(0, count($bgArr)-1);
