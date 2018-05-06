@@ -13,9 +13,8 @@
     <style type="text/css">
     .bg {
 
-      background-image: url(files/bg/<?php echo $bg; ?>);
+      background-image: url("files/bg/<?php echo $bg; ?>");
       height: 100%;
-
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
