@@ -44,9 +44,9 @@
     <meta property="description"	content="
     ¯\_(ツ)_/¯
 
-    void's landing page for future project(s) 
+void's landing page for future project(s)
     "/>
-    <meta property="og:image"	      content="files/imgs/sunset.gif"/>
+    <meta property="og:image"	      content="https://voidxd.me/files/imgs/sunset.gif"/>
     <meta property="og:locale"	    content="en-US"/>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
