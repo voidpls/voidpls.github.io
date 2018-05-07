@@ -41,9 +41,13 @@
     <meta name="author" content="Void">
 
     <meta property="url"		      content="https://voidxd.me/"/>
-    <meta property="description"	content="¯\_(ツ)_/¯"/>
-    <meta property="image"	      content="files/imgs/sunset.gif"/>
-    <meta property="locale"	    content="en-US"/>
+    <meta property="description"	content="
+    ¯\_(ツ)_/¯
+
+    void's landing page for future project(s) 
+    "/>
+    <meta property="og:image"	      content="files/imgs/sunset.gif"/>
+    <meta property="og:locale"	    content="en-US"/>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preload" href="css/font.css" as="style">
