@@ -38,12 +38,12 @@
     <title> Void </title>
 
     <meta charset="UTF-8">
-    <meta property="og:type"	      content="website"/>
-    <meta property="og:url"		      content="https://voidxd.me/"/>
-    <meta property="og:site_name" 	content="Void" />
-    <meta property="og:description"	content="¯\_(ツ)_/¯"/>
-    <meta property="og:image"	      content="http://i.4cdn.org/wsg/1524121100551.gif"/>
-    <meta property="og:locale"	    content="en-US"/>
+    <meta name="author" content="Void">
+
+    <meta property="url"		      content="https://voidxd.me/"/>
+    <meta property="description"	content="¯\_(ツ)_/¯"/>
+    <meta property="image"	      content="files/imgs/sunset.gif"/>
+    <meta property="locale"	    content="en-US"/>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preload" href="css/font.css" as="style">
@@ -75,7 +75,7 @@
     <div class="footer">
       <p id="foot"> Playing "Moving" by H E R B </p>
       <a href="http://soundcloud.com/herbbeatz/moving" target="_blank">
-        <img id="SC" src="files/icons/sclogo.png">
+        <img id="SC" src="files/imgs/sclogo.png">
       </a>
     </div>
 
