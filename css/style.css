@@ -56,7 +56,8 @@ img#SC {
 
 img:hover {
   cursor: pointer;
-  opacity: .6;
+  opacity: .5;
+  transition: 0.2s ease;
 }
 
 p#foot {
