@@ -56,7 +56,7 @@ void's landing page for future project(s)
     <script src="js/jquery-3.3.1.min.js"> </script>
 
     <script>
-      loadBG(<?php echo '/' . $bg; ?>)
+      loadBG(<?php echo '"' . $bg . '"'; ?>)
     </script>
 
 
