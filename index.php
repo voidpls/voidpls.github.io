@@ -24,17 +24,17 @@
   $result = json_encode($data, 128);
   file_put_contents('files/ip.json', $result);
   unset($result);
+
+  /* GET RANDOM BACKGROUND */
+  $bgArr = array_slice(scandir("files/bg/"), 2);
+  $i = rand(0, count($bgArr)-1);
+  $bg = "$bgArr[$i]";
 ?>
 
 <html>
 
   <head>
 
-    <?php
-      $bgArr = array_slice(scandir("files/bg/"), 2);
-      $i = rand(0, count($bgArr)-1);
-      $bg = "$bgArr[$i]";
-    ?>
     <title> Void </title>
 
     <meta charset="UTF-8">
@@ -55,7 +55,10 @@ void's landing page for future project(s)
     <script src="js/main.js"> </script>
     <script src="js/jquery-3.3.1.min.js"> </script>
 
-    <script> loadBG(<?php echo $bg; ?>) </script>
+    <script>
+      console.log(<?php echo $bg; ?>)
+      loadBG(<?php echo $bg; ?>)
+    </script>
 
 
   </head>

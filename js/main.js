@@ -1,7 +1,7 @@
 
 function loadBG(bg) {
   console.log(bg)
-
+/*
   $('<img/>').attr('src', `files/bg/${bg}`).on('load', function() {
      $(this).remove();
      $('body').css('background', `url(files/bg/${bg}) no-repeat 50% 50% fixed;`);
@@ -9,5 +9,5 @@ function loadBG(bg) {
      song.play();
      song.loop = true;
   });
-
+*/
 }
