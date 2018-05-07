@@ -22,6 +22,14 @@ body {
   flex-direction: column;
 }
 
+body#bg {
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+}
+
 div#box {
   border-style: solid;
   border-color: #fff;

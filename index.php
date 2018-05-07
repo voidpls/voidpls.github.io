@@ -53,18 +53,10 @@ void's landing page for future project(s)
     <link rel="preload" href="css/font.css" as="style">
 
     <script src="js/main.js"> </script>
-    <!--<script src="js/jquery-3.3.1.min.js"> </script>-->
+    <script src="js/jquery-3.3.1.min.js"> </script>
 
-    <style>
-      body#bg {
-        background: url(files/bg/<?php echo $bg; ?>) no-repeat 50% 50% fixed;
-        background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        -webkit-background-size: cover;
-        height: 100%;
-      }
-    </style>
+    <script> loadBG(<?php echo $bg; ?>) </script>
+
 
   </head>
 
