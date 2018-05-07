@@ -35,6 +35,15 @@
       $i = rand(0, count($bgArr)-1);
       $bg = "$bgArr[$i]";
     ?>
+    <title> Void </title>
+
+    <meta charset="UTF-8">
+    <meta property="og:type"	      content="website"/>
+    <meta property="og:url"		      content="https://voidxd.me/"/>
+    <meta property="og:site_name" 	content="Void" />
+    <meta property="og:description"	content="¯\_(ツ)_/¯"/>
+    <meta property="og:image"	      content="http://i.4cdn.org/wsg/1524121100551.gif"/>
+    <meta property="og:locale"	    content="en-US"/>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preload" href="css/font.css" as="style">
