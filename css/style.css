@@ -36,6 +36,12 @@ h1 {
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
+  transition: 0.5s ease;
+}
+h1:hover {
+  background-color: #fff;
+  color: #000; /*rgba(0, 0, 0, 0);*/
+  cursor: default;
 }
 
 .footer {
@@ -52,12 +58,12 @@ img#SC {
   margin-top: 0;
   margin-bottom: 0;
   width: 3.75vw;
+  transition: 0.2s ease;
 }
 
 img:hover {
   cursor: pointer;
   opacity: .5;
-  transition: 0.2s ease;
 }
 
 p#foot {
