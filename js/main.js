@@ -2,9 +2,9 @@
 function loadBG(bgFile) {
 
   let bgAddr = "../files/bg/"+bgFile;
-  console.log(bgAddr);
 
-  $('body').css("background", "url(${"+bgAddr+"}) no-repeat 50% 50% fixed;");
+  $("#bg").css("background-image", "url('"+bgAddr+"')");
+//$("#bg").css("background-image", "url('../files/bg/rain1.gif')");
 
   /*$('<img/>').attr("src", bgAddr).on('load', function() {
      $(this).remove();
