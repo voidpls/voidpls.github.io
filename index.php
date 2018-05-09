@@ -39,7 +39,8 @@
 
     <meta charset="UTF-8">
     <meta name="author" content="Void">
-
+	<meta name="theme-color" content="#ffffff">
+	
     <meta property="url"		      content="https://voidxd.me/"/>
     <meta property="description"	content="
     ¯\_(ツ)_/¯
