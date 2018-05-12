@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
 <?php
+
+  date_default_timezone_set("America/New_York");
+
   $file = file_get_contents('files/ip.json', true);
   $data = json_decode($file, true);
   unset($file);
@@ -9,7 +12,7 @@
   $agent = $_SERVER['HTTP_USER_AGENT'];
   $ref = $_SERVER['HTTP_REFERER'];
   $country = $_SERVER["HTTP_CF_IPCOUNTRY"];
-  $dateTime = date('Y/m/d G:i:s');
+  $dateTime = date('m/d/Y G:i:s');
   $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
   $arr = array("ip"=>$ip,
@@ -40,7 +43,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Void">
 	<meta name="theme-color" content="#ffffff">
-	
+
     <meta property="url"		      content="https://voidxd.me/"/>
     <meta property="description"	content="
     ¯\_(ツ)_/¯
