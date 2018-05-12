@@ -31,12 +31,12 @@
       <div class="main-container">
 
         <div class="inner cover">
-          <span class="glyphicon glyphicon-link"></span>
-          <h1>URL Shortener</h1>
-          <h4>voidxd.me/shorten</h4>
-
+          <div id="box">
+            <span class="glyphicon glyphicon-link"></span>
+              <h1>URL Shortener</h1>
+              <h4>voidxd.me/shorten</h4>
+          </div>
           <div class="row">
-
             <div class="col-lg-12">
               <div class="input-group input-group-lg">
                 <input id="url-field" type="text" class="form-control" placeholder="Paste a link...">
