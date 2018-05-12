@@ -6,7 +6,7 @@
 
   <?php
     /* GET RANDOM BACKGROUND */
-    $bgArr = array_slice(scandir("files/bg/"), 2);
+    $bgArr = array_slice(scandir("../files/bg/"), 2);
     $i = rand(0, count($bgArr)-1);
     $bg = "$bgArr[$i]";
   ?>
