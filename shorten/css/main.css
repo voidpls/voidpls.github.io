@@ -80,10 +80,21 @@ body#bg {
   font-size: 1.7vw;
 }
 
-.col-lg-12{
-
+.col-lg-12 {
   margin-top: 5vw;
+}
 
+.input-group-lg {
+  width: 42vw;
+  margin: auto;
+  text-align: center;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control.active {
+  box-shadow: none;
 }
 
 .footer {
