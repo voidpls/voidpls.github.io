@@ -39,9 +39,9 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="input-group input-group-lg">
-                <input id="url-field" type="text" class="form-control" placeholder="Paste a link...">
+                <input id="url-field" type="text" class="form-control" placeholder="Paste your link here...">
                 <span class="input-group-btn">
-                  <button class="btn btn-shorten" type="button">SHORTEN</button>
+                  <button class="btn btn-shorten" type="button"> SHORTEN <span class="glyphicon glyphicon-ok-sign"></span> </button>
                 </span>
               </div>
             </div>
