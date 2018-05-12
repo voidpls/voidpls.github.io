@@ -7,7 +7,7 @@ function loadBG(bgFile) {
     $(this).remove();
     $("#bg").css("background-image", "url('"+bgAddr+"')");
 
-    var song = new Audio('../files/Taiyo Ky - Trip4luv.mp3');
+    var song = new Audio('../../files/Taiyo Ky - Trip4luv.mp3');
     song.play();
     song.loop = true;
   });
