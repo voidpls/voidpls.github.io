@@ -12,10 +12,11 @@
   ?>
 
   <title>URL Shortener</title>
-  <link href='shorten/css/raleway.css' rel='stylesheet' type='text/css'>
-  <link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
-  <link href="shorten/css/main.css" rel="stylesheet" type='text/css'>
+  <link href='css/raleway.css' rel='stylesheet' type='text/css'>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+  <link href="css/main.css" rel="stylesheet" type='text/css'>
 
+  <script src="js/main.js"></script>
   <script>
     loadBG(<?php echo '"' . $bg . '"'; ?>)
   </script>
@@ -56,7 +57,7 @@
       <div class="footer">
         <p id="foot"> Playing "Trip4luv" by Taiyo Ky </p>
         <a href="https://soundcloud.com/taiyoky/trip4luv" target="_blank">
-          <img id="SC" src="files/imgs/sclogo.png">
+          <img id="SC" src="../files/imgs/sclogo.png">
         </a>
       </div>
     </div>
@@ -64,7 +65,6 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="shorten/js/main.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
