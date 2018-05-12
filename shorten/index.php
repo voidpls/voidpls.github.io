@@ -16,7 +16,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet" type='text/css'>
 
-  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jquery-2.2.4.min.js"></script>
   <script src="js/main.js"></script>
   <script>
     loadBG(<?php echo '"' . $bg . '"'; ?>)
