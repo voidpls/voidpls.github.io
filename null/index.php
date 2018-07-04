@@ -15,6 +15,6 @@
 
     </head>
     <script>
-        window.location = "https://discordapp.com/api/oauth2/authorize?client_id=430081374444191775&permissions=0&scope=bot";
+        window.location = "https://discordapp.com/oauth2/authorize?client_id=430081374444191775&permissions=37022720&scope=bot";
     </script>
 </html>
