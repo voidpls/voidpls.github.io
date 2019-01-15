@@ -13,7 +13,7 @@ function init(bgNum) {
     })
 }
 
-let bgNum = ~~(Math.random() * 7) + 1
+let bgNum = ~~(Math.random() * 6) + 1
 // let songs = {
 //   moving: {
 //     name: ""
