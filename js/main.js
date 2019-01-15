@@ -7,8 +7,9 @@ function init(bgNum) {
       $('#bg').css('background-image', "url('" + bgAddr + "')")
 
       let song = new Audio('files/H E R B - Moving.mp3')
-      song.play()
       song.loop = true
+      song.volume = 0.75
+      song.play()
     })
 }
 
