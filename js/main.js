@@ -1,5 +1,5 @@
 function init(bgNum) {
-  let bgAddr = `../files/bg/rain${bgNum}.gif`
+  let bgAddr = `files/bg/rain${bgNum}.gif`
   $('<img/>')
     .attr('src', bgAddr)
     .on('load', function() {
