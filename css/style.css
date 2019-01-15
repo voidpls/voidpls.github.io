@@ -1,9 +1,10 @@
-body, html {
-  height:100%;
+body,
+html {
+  height: 100%;
   margin: 0;
   background-color: #000;
-  font-size: 3vw;
-  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  font-size: 62.5;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   color: #fff;
 }
 
@@ -36,13 +37,12 @@ body#bg {
 div#box {
   border-style: solid;
   border-color: #fff;
-  border-width: 1vw;
+  border-width: 1rem;
   display: block;
 }
 
-
 h1 {
-  font-size: 7vw;
+  font-size: 6.5rem;
   display: inline-block;
   margin-bottom: 0;
   margin-top: 0;
@@ -56,10 +56,11 @@ h1:hover {
 }
 
 .footer {
-  font-size: 1.22vw;
-  position: absolute;
+  font-size: 1rem;
+  position: fixed;
   bottom: 0;
-  width: 100%
+  line-height: 0;
+  width: 100%;
   display: inline-block;
   margin: auto;
   text-align: center;
@@ -68,13 +69,13 @@ h1:hover {
 img#SC {
   margin-top: 0;
   margin-bottom: 0;
-  width: 3.75vw;
+  width: 3rem;
   transition: 0.2s ease;
 }
 
 img:hover {
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 p#foot {
