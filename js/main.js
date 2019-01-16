@@ -3,10 +3,9 @@ function init(bgNum) {
 
   $('<img/>')
     .attr('src', bgAddr)
-    .ready(function() {
+    .on('load', function() {
       $(this).remove()
       $('#bg').css('background-image', "url('" + bgAddr + "')")
-      console.log($('#bg').css('background-image'))
       let song = new Audio('files/H E R B - Moving.mp3')
       song.loop = true
       song.volume = 0.75
@@ -15,9 +14,17 @@ function init(bgNum) {
 }
 
 let bgNum = ~~(Math.random() * 6) + 1
-// let songs = {
-//   moving: {
-//     name: ""
-//   }
-// }
 init(bgNum)
+
+$(document).ready(function() {
+  $('#main').hover(function() {
+    let box = $('#box')
+    if (box.hasClass('invert')) box.removeClass('invert')
+    else box.addClass('invert')
+    $('#projects')
+      .stop()
+      .slideToggle({
+        duration: 400
+      })
+  })
+})

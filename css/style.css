@@ -1,7 +1,6 @@
-body,
 html {
   height: 100%;
-  margin: 0;
+  min-height: 100%;
   background-color: #000;
   font-size: 62.5%;
   font-family: 'Quicksand', Helvetica, Arial, sans-serif;
@@ -9,7 +8,6 @@ html {
 }
 
 body {
-  display: inline-block;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -21,6 +19,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body#bg {
@@ -28,7 +30,6 @@ body#bg {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -51,20 +52,35 @@ h1 {
   transition: 0.5s ease;
 }
 h1:hover {
+  cursor: default;
+}
+.invert {
   background-color: #fff;
   color: #000; /*rgba(0, 0, 0, 0);*/
-  cursor: default;
+}
+
+#projects {
+  font-size: 2rem;
+  color: #000;
+  margin-top: 1rem;
+  line-height: 3rem;
+  display: none;
+}
+#projects span {
+  background-color: #fff;
+  padding: 0.2rem 0.5rem 0.2rem 0.2rem;
 }
 
 .footer {
-  font-size: 1.6rem;
-  position: fixed;
-  bottom: 0;
-  line-height: 0;
-  width: 100%;
-  display: inline-block;
-  margin: auto;
+  position: absolute;
+  left: 0;
   text-align: center;
+  font-size: 1.6rem;
+  height: 7rem;
+  width: 100%;
+  margin: auto;
+  line-height: 0rem;
+  bottom: 0;
 }
 
 img#SC {
@@ -73,14 +89,15 @@ img#SC {
   width: 5rem;
   transition: 0.2s ease;
 }
-
 img:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 
-p#foot {
+p#foot,
+img#SC {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /*
