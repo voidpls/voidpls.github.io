@@ -3,7 +3,7 @@ html {
   min-height: 100%;
   background-color: #000;
   font-size: 62.5%;
-  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+  font-family: /*'Quicksand', Helvetica,*/ Arial, sans-serif;
   color: #fff;
 }
 
@@ -47,7 +47,7 @@ h1 {
   display: inline-block;
   margin-bottom: 0;
   margin-top: 0;
-  padding-left: 0.2rem;
+  padding: 0.6rem 0.3rem 0.6rem 0.3rem;
   text-align: center;
   transition: 0.5s ease;
 }
