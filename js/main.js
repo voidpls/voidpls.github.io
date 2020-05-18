@@ -6,10 +6,10 @@ function init(bgNum) {
     .on('load', function() {
       $(this).remove()
       $('#bg').css('background-image', "url('" + bgAddr + "')")
-      let song = new Audio('files/H E R B - Moving.mp3')
-      song.loop = true
-      song.volume = 0.75
-      song.play()
+      //let song = new Audio('files/H E R B - Moving.mp3')
+      //song.loop = true
+      //song.volume = 0.75
+      //song.play()
     })
 }
 
