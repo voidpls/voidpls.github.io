@@ -17,7 +17,7 @@
 //init(bgNum)
 
 $(document).ready(function() {
-  $("#bgndVideo").mb_YTPlayer();
+//   $("#bgndVideo").mb_YTPlayer();
   $('#main').hover(function() {
     let box = $('#box')
     if (box.hasClass('invert')) box.removeClass('invert')
@@ -26,15 +26,15 @@ $(document).ready(function() {
       .stop()
       .slideToggle({
         duration: 400
-      })
+    })
   })
     var videoWidth = 1280;
     var videoHeight = 720;
-    var  video = $(".video-container video").attr("srcdesk");
+    var video = $(".video-container video").attr("srcdesk");
     if($(window).width() < 721) {
       videoWidth = 480;
       videoHeight = 854;
       video = $(".video-container video").attr("srcmob");
     }
-    $(".video-container video").attr("width", videoWidth).attr("height", videoHeight).append('<source src="' + video + '" type="video/mp4" >'),
+    $(".video-container video").attr("width", videoWidth).attr("height", videoHeight).append('<source src="' + video + '" type="video/mp4" >')
 })
