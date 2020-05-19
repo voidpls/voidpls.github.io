@@ -1,4 +1,4 @@
-function init(bgNum) {
+//function init(bgNum) {
  // let bgAddr = `files/bg/rain${bgNum}.gif`
 
   //$('<img/>')
@@ -10,8 +10,8 @@ function init(bgNum) {
       //song.loop = true
       //song.volume = 0.75
       //song.play()
-    })
-}
+    //})
+//}
 
 //let bgNum = ~~(Math.random() * 6) + 1
 //init(bgNum)
