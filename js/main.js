@@ -34,7 +34,7 @@ $(document).ready(function() {
     if($(window).width() < 721) {
       videoWidth = 480;
       videoHeight = 854;
-      video = $(".video-container video").attr("srcmob"));
+      video = $(".video-container video").attr("srcmob");
     }
     $(".video-container video").attr("width", videoWidth).attr("height", videoHeight).append('<source src="' + video + '" type="video/mp4" >'),
 })
