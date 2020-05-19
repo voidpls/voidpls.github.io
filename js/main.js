@@ -1,11 +1,11 @@
 function init(bgNum) {
-  let bgAddr = `files/bg/rain${bgNum}.gif`
+ // let bgAddr = `files/bg/rain${bgNum}.gif`
 
-  $('<img/>')
-    .attr('src', bgAddr)
-    .on('load', function() {
-      $(this).remove()
-      $('#bg').css('background-image', "url('" + bgAddr + "')")
+  //$('<img/>')
+    //.attr('src', bgAddr)
+    //.on('load', function() {
+      //$(this).remove()
+      //$('#bg').css('background-image', "url('" + bgAddr + "')")
       //let song = new Audio('files/H E R B - Moving.mp3')
       //song.loop = true
       //song.volume = 0.75
@@ -13,8 +13,8 @@ function init(bgNum) {
     })
 }
 
-let bgNum = ~~(Math.random() * 6) + 1
-init(bgNum)
+//let bgNum = ~~(Math.random() * 6) + 1
+//init(bgNum)
 
 $(document).ready(function() {
   $('#main').hover(function() {
