@@ -100,7 +100,7 @@ img#SC {
   padding-bottom: 0;
 }
 
-.videocontainer {
+.video-container {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -108,7 +108,7 @@ img#SC {
     height: 100%;
     overflow: hidden;
 }
-.videocontainer video {
+.video-container video {
     min-width: 100%;
     min-height: 100%;
     width: auto;
