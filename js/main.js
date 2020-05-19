@@ -17,6 +17,7 @@
 //init(bgNum)
 
 $(document).ready(function() {
+  $("bgndVideo").mb_YTPlayer();
   $('#main').hover(function() {
     let box = $('#box')
     if (box.hasClass('invert')) box.removeClass('invert')
