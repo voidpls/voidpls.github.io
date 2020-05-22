@@ -14,7 +14,7 @@ function init(bgNum) {
 }
 
 const bgs = [1,2,3,5,6]
-const bgNum = bgs[bgs.length]
+const bgNum = bgs[~~(Math.random() * bgs.length)]
 // let bgNum = ~~(Math.random() * 6) + 1
 init(bgNum)
 
