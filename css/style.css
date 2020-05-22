@@ -100,7 +100,7 @@ img#SC {
   padding-bottom: 0;
 }
 
-.video-container {
+/* .video-container {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -117,7 +117,7 @@ img#SC {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 /*
 h2 {
